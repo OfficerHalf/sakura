@@ -21,10 +21,6 @@ body {
   color: var(--color-text);
   background-color: var(--color-bg);
   padding: 13px;
-
-  @include for-phone-only {
-    font-size: calc(var(--font-size-base) * 0.85);
-  }
 }
 
 @mixin word-wrap() {
