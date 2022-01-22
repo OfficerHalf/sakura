@@ -357,17 +357,12 @@ body {
   background-color: var(--color-bg);
   padding: 13px;
 }
-
-@media (max-width: 684px) {
+@media (max-width: 599px) {
   body {
     font-size: calc(var(--font-size-base) * 0.85);
   }
 }
-@media (max-width: 382px) {
-  body {
-    font-size: calc(var(--font-size-base) * 0.75);
-  }
-}
+
 h1,
 h2,
 h3,
